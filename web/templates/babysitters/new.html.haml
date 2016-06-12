@@ -1,12 +1,19 @@
 %h1 New Babysitter
 
-- form_for(@changeset, babysitters_path(@conn, :create), fn f ->
-  .form-group
-    = text_input f, :name, placeholder: "Name", class: "form-control"
-    = error_tag f, :name
-  .form-group
-    = text_input f, :phone_number, placeholder: "Phone Number", class: "form-control"
-    = error_tag f, :phone_number
+.row
+  .col-xs-12.col-sm-12.col-md-6
+    .well.text-center
+      - form_for(@changeset, babysitters_path(@conn, :create), [class: "form-horizontal"], fn f ->
+        .form-group
+          = label f, :name, "Name", class: "col-xs-3 control-label"
+          .col-xs-9
+            = text_input f, :name, placeholder: "Name", class: "form-control"
+            = error_tag f, :name
+        .form-group
+          = label f, :phone_number, "Phone Number", class: "col-xs-3 control-label"
+          .col-xs-9
+            = text_input f, :phone_number, placeholder: "Phone Number", class: "form-control"
+            = error_tag f, :phone_number
 
-  = submit "Create Babysitter", class: "btn btn-primary"
+        = submit "Create Babysitter", class: "btn btn-primary"
 
