@@ -36,4 +36,8 @@ defmodule Babysitter.Endpoint do
     signing_salt: "xa4BBPb7"
 
   plug Babysitter.Router
+
+  if Application.get_env(:babysitter, :sql_sandbox) do
+    plug Phoenix.Ecto.SQL.Sandbox
+  end
 end

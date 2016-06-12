@@ -17,6 +17,7 @@ defmodule Babysitter.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    resources "/babysitters", BabysittersController, only: [:index, :new, :create]
   end
 
   # Other scopes may use custom stacks.
