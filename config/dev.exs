@@ -35,8 +35,7 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :babysitter, Babysitter.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "joeletizia",
   database: "babysitter_dev",
   hostname: "localhost",
   pool_size: 10
