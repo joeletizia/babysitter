@@ -1,0 +1,23 @@
+v2.
+{<<"/Users/joeletizia/workspace/babysitter/babysitter/apps/babysitter_web/_build/dev/lib/dialyxir/ebin/Elixir.Dialyxir.Helpers.beam">>,
+ 'Elixir.Dialyxir.Helpers',module,<<"lib/dialyxir/helpers.ex">>,
+ ['Elixir.Kernel'],
+ ['Elixir.Mix'],
+ [],nil}.
+{<<"/Users/joeletizia/workspace/babysitter/babysitter/apps/babysitter_web/_build/dev/lib/dialyxir/ebin/Elixir.Mix.Tasks.Dialyzer.beam">>,
+ 'Elixir.Mix.Tasks.Dialyzer',module,<<"lib/mix/tasks/dialyzer.ex">>,
+ ['Elixir.Kernel','Elixir.Enum','Elixir.Dialyxir.Helpers','Elixir.Module',
+  'Elixir.Mix.Task'],
+ [erlang,'Elixir.List','Elixir.Path','Elixir.Mix.Project',
+  'Elixir.String.Chars','Elixir.Access','Elixir.Mix.Tasks.Dialyzer.Plt',
+  'Elixir.System'],
+ [],nil}.
+{<<"/Users/joeletizia/workspace/babysitter/babysitter/apps/babysitter_web/_build/dev/lib/dialyxir/ebin/Elixir.Mix.Tasks.Dialyzer.Plt.beam">>,
+ 'Elixir.Mix.Tasks.Dialyzer.Plt',module,<<"lib/mix/tasks/dialyzer.plt.ex">>,
+ ['Elixir.Kernel','Elixir.Enum','Elixir.Dialyxir.Helpers','Elixir.Module',
+  'Elixir.Mix.Task','Elixir.System'],
+ ['Elixir.List.Chars',erlang,dialyzer,'Elixir.File','Elixir.List',maps,code,
+  'Elixir.IO','Elixir.Path',string,'Elixir.Mix','Elixir.Atom',
+  'Elixir.Mix.Project','Elixir.Keyword','Elixir.String.Chars','Elixir.Access',
+  'Elixir.Map'],
+ [],nil}.

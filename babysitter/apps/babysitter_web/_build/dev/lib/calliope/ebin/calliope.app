@@ -1,0 +1,10 @@
+{application,calliope,
+             [{registered,[]},
+              {description,"An Elixir library for parsing haml templates.\n"},
+              {vsn,"0.4.0"},
+              {modules,['Elixir.Calliope','Elixir.Calliope.Compiler',
+                        'Elixir.Calliope.Engine','Elixir.Calliope.Parser',
+                        'Elixir.Calliope.Render','Elixir.Calliope.Safe',
+                        'Elixir.Calliope.Tokenizer',
+                        'Elixir.CalliopeException']},
+              {applications,[kernel,stdlib,elixir]}]}.

@@ -1,0 +1,11 @@
+v2.
+{<<"/Users/joeletizia/workspace/babysitter/babysitter/apps/babysitter_web/_build/dev/lib/dialyze/ebin/Elixir.Mix.Tasks.Dialyze.beam">>,
+ 'Elixir.Mix.Tasks.Dialyze',module,<<"lib/mix/tasks/dialyze.ex">>,
+ ['Elixir.OptionParser','Elixir.Kernel','Elixir.Enum','Elixir.Module',
+  'Elixir.Mix.Dep','Elixir.Mix.Task','Elixir.Kernel.Typespec'],
+ [erlang,dialyzer,'Elixir.File','Elixir.Mix.Utils',code,unicode,'Elixir.IO',
+  'Elixir.Path','Elixir.String','Elixir.Mix','Elixir.Atom',
+  'Elixir.Mix.Project','Elixir.Mix.Dep.Umbrella','Elixir.Keyword',
+  'Elixir.String.Chars','Elixir.Access','Elixir.Regex','Elixir.Map',
+  'Elixir.System','Elixir.HashSet',file],
+ [],nil}.
