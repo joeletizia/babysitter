@@ -1,9 +1,0 @@
-{application,babysitter,
-             [{registered,[]},
-              {description,"babysitter"},
-              {vsn,"0.0.1"},
-              {modules,['Elixir.Babysitter','Elixir.Babysitter.Data.Repo',
-                        'Elixir.Babysitter.Data.Sitter',
-                        'Elixir.Babysitter.Sitter']},
-              {applications,[kernel,stdlib,elixir,logger,postgrex,ecto]},
-              {mod,{'Elixir.Babysitter',[]}}]}.
